@@ -1,0 +1,300 @@
+body{
+  position: absolute;
+  left: 0px;
+  right: -15px;
+  top: 0px;
+  bottom: 0px;
+
+  background: url(fon.jpg);
+}
+header{
+  position: absolute;
+  height: 162px;
+  left: 85px;
+  right: 55px;
+  top: 51px;
+
+  border: 6px solid #755656;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+header a {
+  text-decoration: none;
+  font-family: Federo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #BDC3C7;
+
+}
+header a:hover {
+  text-decoration: underline;
+}
+header li {
+    display: inline;
+    margin-right: -2px;
+    margin-left: 90px;
+  }
+.logo{
+  position: absolute;
+width: 128px;
+height: 114px;
+left: 70px;
+top: 31px;
+}
+
+
+main{
+  position: absolute;
+  display: block;
+  min-height: 646px;
+  max-height: 1200px;
+  left: 137px;
+  right: 124px;
+  top: 273px;
+  background: rgba(117, 86, 86, 0.62);
+}
+
+.textmain{
+position: absolute;
+height: 196px;
+left: 50px;
+right: 54px;
+font-family: Federo;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 30px;
+/* or 143% */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.imagemain{
+position: absolute;
+height: 371px;
+left: 223px;
+right: 228px;
+top: 235px;
+}
+
+footer{
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 984px;
+
+}
+.line{
+  position: absolute;
+height: 0px;
+width: 100%;
+top: 0px;
+
+border: 3px solid #755656;
+transform: rotate(-179.98deg);
+}
+.footertext{
+  position: absolute;
+  width: 231px;
+  height: 18px;
+  right: 37px;
+  top: 11px;
+
+  font-family: Federo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 110% */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #BDC3C7;
+}
+
+.mods{
+
+  height: 256px;
+  display: block;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-top: 50px;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+}
+.imagemods{
+  position: absolute;
+  display: block;
+width: 191px;
+height: 180px;
+margin-left: 84px;
+margin-top: 45px;
+}
+.textmodstitle{
+display: block;
+height: 46px;
+margin-left: 543px;
+margin-right: -40px;
+margin-top: 8px;
+
+font-family: Federo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.textmodsmain{
+  display: block;
+height: 124px;
+margin-left: 323px;
+margin-right: 18px;
+margin-top: 5px;
+
+font-family: Federo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+
+.builds{
+  height: 506px;
+  display: block;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+}
+.textbuilds{
+  position: absolute;
+  display: block;
+width: 532px;
+height: 46px;
+margin-left: 315px;
+margin-top: 13px;
+
+font-family: Federo;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 30px;
+/* or 83% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.imagebuilds{
+position: absolute;
+display: block;
+width: 657px;
+height: 377px;
+margin-left: 178px;
+margin-top: 97px;
+}
+textarea{
+  position: absolute;
+width: 876.88px;
+height: 200px;
+left: 155px;
+top: 120.6px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.textidea{
+  position: absolute;
+width: 803px;
+height: 48px;
+left: 155px;
+top: 55px;
+
+font-family: Federo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.radioone{
+  position: absolute;
+width: 735.61px;
+height: 31.83px;
+left: 178px;
+top: 425px;
+
+}
+.radiotwo{
+  position: absolute;
+  width: 735.61px;
+  height: 31.83px;
+  left: 178px;
+  top: 465px;
+}
+label{
+  color: #FFFFFF;
+}
+button{
+  position: absolute;
+  width: 241px;
+  height: 56.63px;
+  left: 469px;
+  top: 563px;
+}
+.spiski{
+  position: absolute;
+  padding: 100px;
+
+  font-family: Federo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFF8;
+}
+.textform{
+position: absolute;
+left: 155px;
+top: 330px;
+}
+.spiskiinput{
+  position: absolute;
+  left: 110px;
+  top: 85px;
+}

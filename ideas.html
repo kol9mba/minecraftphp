@@ -1,0 +1,45 @@
+<head>
+<title>minecraft</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link type="image/x-icon" rel="shortcut icon" href="logo.png">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<header>
+  <ul>
+  <li><a href="index.html" class="menu"><img src="logo.png" class="logo"/>Главная</a></li>
+  <li><a href="mods.html" class="menu">Моды</a></li>
+  <li><a href="builds.html" class="menu">Постройки</a></li>
+  <li><a href="ideas.html" class="menu">Идеи</a></li>
+    <li><a href="ul.html" class="menu">Списки идей</a></li>
+  </ul>
+</header>
+<main>
+  <div class="textidea">
+    Здесь можно предлагать интересные, грандиозные и гениальные идеи построек или новых модов, которые наш ресурс обязательно изучит, возьмет на заметку или спроектирует:
+  </div>
+  <form action="ajax.php" method="post" enctype="multipart/form-data" id="form">
+  <textarea name="textarea"
+   rows="10" cols="50"></textarea>
+   <div class="textform">
+    <input type="text" placeholder="email" id="email">
+    <input type="text" placeholder="number" id="number">
+    </div>
+   <div class="radioone">
+    <input type="radio" value="Build">
+    <label>Постройка</label>
+    </div>
+    <div class="radiotwo">
+    <input type="radio" value="Mod">
+    <label>Мод</label>
+    </div>
+    <button type = "submit" name = "button1" onClick="clickButton();">
+			Отправить
+		</button></form>
+</main>
+<footer>
+  <div class="footertext"> Сделано Родиным Николаем</div>
+  <div class="line"></div>
+</footer>
+</body>
